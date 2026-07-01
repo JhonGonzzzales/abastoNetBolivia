@@ -1,0 +1,43 @@
+.mispedidos-container h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.4rem;
+  color: #1a1a2e;
+}
+
+.pedido-card {
+  background: white;
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.pedido-card strong {
+  font-size: 1rem;
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.pedido-estado {
+  display: inline-block;
+  padding: 0.25rem 0.6rem;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin: 0.25rem 0;
+  text-transform: uppercase;
+}
+
+.pedido-fecha {
+  color: #888;
+  font-size: 0.8rem;
+  margin-top: 0.25rem;
+}
+
+.vacio {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  text-align: center;
+  color: #888;
+}

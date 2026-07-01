@@ -1,0 +1,78 @@
+.catalogo-container h2 {
+  margin-bottom: 1.5rem;
+  font-size: 1.4rem;
+  color: #1a1a2e;
+}
+
+.msg-feedback {
+  background: #e6f4ea;
+  color: #2d6a4f;
+  padding: 0.75rem 1rem;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.producto-card {
+  background: white;
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 0.75rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.producto-info strong {
+  font-size: 1rem;
+  display: block;
+}
+
+.producto-info span {
+  color: #555;
+  font-size: 0.9rem;
+}
+
+.producto-accion {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.producto-accion input {
+  width: 60px;
+  padding: 0.4rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.producto-accion button {
+  padding: 0.4rem 0.9rem;
+  background: #1a1a2e;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background 0.2s;
+}
+
+.producto-accion button:hover {
+  background: #2e2e5e;
+}
+
+.no-registro {
+  background: #fff3cd;
+  padding: 1rem;
+  border-radius: 8px;
+  color: #856404;
+}
+
+.no-registro a {
+  color: #1a1a2e;
+  font-weight: bold;
+}
