@@ -10,8 +10,6 @@ body {
   color: #222;
 }
 
-#root {
-  max-width: 720px;
-  margin: 0 auto;
-  padding: 1.5rem;
+@media (max-width: 600px) {
+  input, select { width: 100%; }
 }

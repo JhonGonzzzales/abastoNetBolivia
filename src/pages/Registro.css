@@ -1,3 +1,5 @@
+h2{ text-align: center }
+
 .registro-container h2 {
   margin-bottom: 1.5rem;
   font-size: 1.4rem;
@@ -6,7 +8,7 @@
 
 .registro-form {
   background: white;
-  padding: 1.5rem;
+  padding: 2rem;
   border-radius: 10px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
   display: flex;

@@ -65,6 +65,12 @@
   background: #2e2e5e;
 }
 
+.productos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
 .no-registro {
   background: #fff3cd;
   padding: 1rem;

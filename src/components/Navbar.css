@@ -1,24 +1,86 @@
 .navbar {
   background: #1a1a2e;
-  padding: 1rem 1.5rem;
+  padding: 1rem 3rem;
   display: flex;
-  gap: 1.5rem;
-  margin-bottom: 1.5rem;
-  border-radius: 8px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
 }
 
-.navbar a {
+.navbar-logo {
+  font-size: 1.1rem;
+  font-weight: 900;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  flex-shrink: 0;
+}
+
+.navbar-logo img {
+  height: 48px;
+  width: auto;
+}
+
+.navbar-logo span { color: #f0c040; }
+
+.navbar-links {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.navbar-links a {
   color: #aaa;
   text-decoration: none;
   font-weight: 600;
-  font-size: 0.95rem;
+  font-size: 1rem;
   transition: color 0.2s;
 }
 
-.navbar a.active {
+.navbar-links a.active { color: #f0c040; }
+.navbar-links a:hover  { color: white; }
+
+.navbar-session {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-shrink: 0;
+}
+
+.navbar-tienda {
+  font-size: 0.9rem;
+  color: #aaa;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 180px;
+}
+
+.navbar-tienda strong { color: white; }
+
+.btn-salir {
+  background: transparent;
+  border: 1px solid #444;
+  color: #aaa;
+  padding: 0.4rem 1rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.btn-salir:hover {
+  border-color: #f0c040;
   color: #f0c040;
 }
 
-.navbar a:hover {
-  color: white;
+@media (max-width: 560px) {
+  .navbar { padding: 0.75rem 1rem; gap: 0.75rem; }
+  .navbar-logo img { height: 36px; }
+  .navbar-links { gap: 0.9rem; }
+  .navbar-links a { font-size: 0.85rem; }
+  .navbar-tienda { max-width: 90px; }
 }
